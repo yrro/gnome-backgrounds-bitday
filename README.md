@@ -22,6 +22,20 @@ meson --prefix=/usr builddir
 ninja -C builddir install
 ```
 
+### RPM build
+
+To build an RPM:
+
+```
+tito build --offline --rpm --test
+```
+
+and to install:
+
+```
+dnf install /tmp/tito/noarch/gnome-background-bitday-blah.rpm
+```
+
 
 ## Configuration
 
